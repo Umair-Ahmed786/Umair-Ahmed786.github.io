@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Umair Ahmed | Full-Stack AI Engineer, Islamabad</title>
+<meta name="description" content="Umair Ahmed is a Full-Stack AI Engineer in Islamabad, Pakistan (Sukkur IBA University alumnus) building generative-AI products with LLMs, RAG, Next.js, Node.js and Python/FastAPI. IEEE-published researcher in Sindhi speech recognition.">
+<meta name="author" content="Umair Ahmed">
+<meta name="theme-color" content="#15110d">
+<link rel="canonical" href="https://umair-ahmed786.github.io/">
+<link rel="icon" href="umair.webp" type="image/webp">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Umair Ahmed | Full-Stack AI Engineer">
+<meta property="og:description" content="Full-Stack AI Engineer in Islamabad building generative-AI products: LLMs, RAG, Next.js, Node.js, Python/FastAPI. IEEE-published (Sindhi ASR).">
+<meta property="og:url" content="https://umair-ahmed786.github.io/">
+<meta property="og:image" content="https://umair-ahmed786.github.io/umair.webp">
+<meta property="profile:first_name" content="Umair">
+<meta property="profile:last_name" content="Ahmed">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Literata:opsz,wght@7..72,400;7..72,500&family=Noto+Naskh+Arabic:wght@500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://umair-ahmed786.github.io/#person",
+  "name": "Umair Ahmed",
+  "url": "https://umair-ahmed786.github.io/",
+  "image": "https://umair-ahmed786.github.io/umair.webp",
+  "jobTitle": "Full-Stack AI Engineer",
+  "description": "Full-Stack AI Engineer building generative-AI products with LLMs, RAG, Next.js, Node.js and Python/FastAPI. IEEE-published researcher in low-resource Sindhi speech recognition.",
+  "email": "mailto:umair.ahmed.cs@gmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Islamabad", "addressCountry": "PK" },
+  "worksFor": { "@type": "Organization", "name": "Revonix", "url": "https://revonix.co/" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Sukkur IBA University", "address": { "@type": "PostalAddress", "addressLocality": "Sukkur", "addressCountry": "PK" } },
+  "knowsAbout": ["Generative AI", "Large Language Models", "Retrieval-Augmented Generation", "Full-Stack Development", "Next.js", "React", "Node.js", "Python", "FastAPI", "Speech Recognition", "Whisper", "Shopify", "WordPress"],
+  "sameAs": [
+    "https://www.linkedin.com/in/umairahmedcs",
+    "https://github.com/Umair-Ahmed786",
+    "https://huggingface.co/heyIamUmair",
+    "https://revonix.co/authors/umair",
+    "https://scholar.google.com/citations?user=FjTkHtQAAAAJ",
+    "https://orcid.org/0009-0009-3291-0686",
+    "https://www.researchgate.net/scientific-contributions/Umair-Ahmed-2356976073",
+    "https://ieeexplore.ieee.org/document/11591966"
+  ],
+  "identifier": { "@type": "PropertyValue", "propertyID": "ORCID", "value": "0009-0009-3291-0686" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "Enhancing Whisper for Low-Resource Sindhi Language ASR",
+  "url": "https://ieeexplore.ieee.org/document/11591966",
+  "isPartOf": { "@type": "PublicationEvent", "name": "iCoMET 2026 (IEEE)" },
+  "author": [
+    { "@type": "Person", "name": "Nabeel Arain" },
+    { "@id": "https://umair-ahmed786.github.io/#person" },
+    { "@type": "Person", "name": "Nimra Mughal" },
+    { "@type": "Person", "name": "Ghulam Mujtaba Shaikh" },
+    { "@type": "Person", "name": "Atif Luqman" }
+  ]
+}
+</script>
+<style>
+  :root {
+    --ink: #15110d;       /* espresso black, from the photo's background */
+    --ink-raised: #1f1914;
+    --paper: #efe6d8;     /* parchment text */
+    --muted: #a3968a;
+    --amber: #d9a15b;     /* the bokeh lights */
+    --line: #382d24;
+    --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+    --body: "Literata", Georgia, "Times New Roman", serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--ink); color: var(--paper);
+    font-family: var(--body); font-size: 18px; line-height: 1.7;
+    background-image: radial-gradient(1200px 600px at 85% -10%, #2a2018 0%, transparent 60%);
+    background-repeat: no-repeat;
+  }
+  a { color: var(--paper); text-decoration-color: var(--amber); text-decoration-thickness: 1.5px; text-underline-offset: 4px; }
+  a:hover { color: var(--amber); }
+  :focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; border-radius: 4px; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  /* ---------- hero ---------- */
+  .hero { position: relative; padding: 88px 0 72px; overflow: hidden; }
+  .hero-grid { display: grid; grid-template-columns: 1.35fr 1fr; gap: 48px; align-items: center; }
+  .native {
+    position: absolute; right: -2%; top: 8px; z-index: 0; pointer-events: none;
+    font-family: "Noto Naskh Arabic", serif; font-weight: 500; font-size: clamp(110px, 19vw, 240px);
+    line-height: 1; color: #2a211a; direction: rtl; white-space: nowrap;
+  }
+  .hero-text, .portrait { position: relative; z-index: 1; }
+  h1 {
+    font-family: var(--display); font-weight: 800; font-size: clamp(56px, 9vw, 112px);
+    line-height: .92; letter-spacing: -0.035em; margin: 0;
+  }
+  .role { font-family: var(--display); font-weight: 600; font-size: clamp(22px, 2.6vw, 30px); color: var(--amber); margin: 18px 0 0; letter-spacing: -0.01em; }
+  .wave { display: block; width: 100%; max-width: 520px; height: 56px; margin: 26px 0 24px; }
+  .wave rect { fill: var(--amber); transform-box: fill-box; transform-origin: center; }
+  .intro { max-width: 34ch; font-size: 20px; color: var(--paper); margin: 0 0 30px; }
+  .links { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 22px; font-family: var(--display); font-weight: 600; font-size: 16px; line-height: 1.3; }
+  .links a { text-decoration: none; border-bottom: 1.5px solid var(--line); padding-bottom: 2px; }
+  .links a:hover { border-color: var(--amber); }
+  .links .mail { color: var(--ink); background: var(--amber); border: 0; padding: 8px 16px; border-radius: 999px; }
+  .links .mail:hover { background: var(--paper); color: var(--ink); }
+  .portrait { justify-self: end; width: min(100%, 380px); aspect-ratio: 1; border-radius: 50%; overflow: hidden;
+    box-shadow: 0 0 0 1px var(--line), 0 0 0 14px var(--ink), 0 0 0 15px #4a3a2c; }
+  .portrait img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.04); display: block; }
+
+  /* ---------- sections ---------- */
+  section { padding: 72px 0; }
+  h2 { font-family: var(--display); font-weight: 800; font-size: clamp(30px, 4vw, 44px); letter-spacing: -0.02em; line-height: 1.05; margin: 0 0 32px; }
+  .about { display: grid; grid-template-columns: 1fr 1.6fr; gap: 48px; border-top: 1px solid var(--line); }
+  .about p { margin: 0 0 18px; max-width: 64ch; }
+  .about .lede { font-size: 22px; line-height: 1.55; }
+
+  .work { border-top: 1px solid var(--line); }
+  .project { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); gap: 12px 48px; padding: 30px 0; border-bottom: 1px solid var(--line); }
+  .project:last-child { border-bottom: 0; }
+  .project h3 { font-family: var(--display); font-weight: 600; font-size: 24px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
+  .project .site { font-family: var(--display); font-size: 15px; color: var(--muted); text-decoration: none; }
+  .project .site:hover { color: var(--amber); }
+  .project p { margin: 0; color: var(--paper); max-width: 60ch; }
+  .project .stack { margin-top: 10px; font-family: var(--display); font-size: 15px; color: var(--muted); }
+  .project .num { color: var(--amber); font-weight: 600; }
+
+  .research { border-top: 1px solid var(--line); }
+  .paper { background: var(--ink-raised); border-left: 3px solid var(--amber); padding: 30px 34px; border-radius: 2px 14px 14px 2px; margin-bottom: 18px; }
+  .paper .title { font-family: var(--display); font-weight: 600; font-size: clamp(22px, 2.6vw, 28px); line-height: 1.25; margin: 0 0 10px; letter-spacing: -0.01em; }
+  .paper .title a { text-decoration: none; }
+  .paper p { margin: 0; color: var(--muted); }
+  .paper .authors strong { color: var(--paper); font-weight: 500; }
+  .paper.quiet { background: transparent; border-left-color: var(--line); }
+
+  .elsewhere { border-top: 1px solid var(--line); }
+  .profiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+  .profiles li { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .profiles a { display: block; padding: 22px 20px; text-decoration: none; font-family: var(--display); font-weight: 600; font-size: 18px; height: 100%; }
+  .profiles a span { display: block; font-weight: 400; font-size: 14px; color: var(--muted); margin-top: 2px; }
+  .profiles a:hover { background: var(--ink-raised); color: var(--amber); }
+
+  .contact { border-top: 1px solid var(--line); text-align: left; }
+  .contact .big { font-family: var(--display); font-weight: 800; font-size: clamp(30px, 5.5vw, 64px); letter-spacing: -0.03em; line-height: 1.05; margin: 0 0 20px; }
+  .contact .big a { text-decoration: none; color: var(--amber); overflow-wrap: anywhere; }
+  .contact .big a:hover { color: var(--paper); }
+  .contact p { color: var(--muted); max-width: 52ch; margin: 0; }
+  footer { padding: 32px 0 56px; color: var(--muted); font-family: var(--display); font-size: 15px; border-top: 1px solid var(--line); }
+
+  /* hover states (answer the visitor's action) */
+  .project { position: relative; transition: background-color .3s ease; }
+  .project::before { content: ""; position: absolute; left: -24px; top: 30px; bottom: 30px; width: 3px; border-radius: 2px; background: var(--amber); transform: scaleY(0); transform-origin: top; transition: transform .35s cubic-bezier(.2,.7,.2,1); }
+  .project:hover::before, .project:focus-within::before { transform: scaleY(1); }
+  .project h3 { transition: color .25s ease, transform .35s cubic-bezier(.2,.7,.2,1); }
+  .project:hover h3 { color: var(--amber); transform: translateX(6px); }
+  .profiles a { position: relative; transition: background-color .25s ease, color .25s ease; }
+  .profiles a::after { content: ""; position: absolute; left: 20px; right: 20px; bottom: 14px; height: 2px; background: var(--amber); transform: scaleX(0); transform-origin: left; transition: transform .35s cubic-bezier(.2,.7,.2,1); }
+  .profiles a:hover::after, .profiles a:focus-visible::after { transform: scaleX(1); }
+  .links a, .links .mail { transition: border-color .25s ease, background-color .25s ease, color .25s ease, transform .25s ease; }
+  .links .mail:hover { transform: translateY(-2px); }
+
+  /* portrait ring: a slow amber light travelling around the frame */
+  .portrait-wrap { position: relative; justify-self: end; width: min(100%, 380px); }
+  .portrait-wrap::before { content: ""; position: absolute; inset: -16px; border-radius: 50%;
+    background: conic-gradient(from var(--angle, 0deg), transparent 0 62%, rgba(217,161,91,.95) 80%, transparent 94%);
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 3px), #000 calc(100% - 3px));
+            mask: radial-gradient(farthest-side, transparent calc(100% - 3px), #000 calc(100% - 3px)); }
+  .portrait-wrap .portrait { width: 100%; justify-self: auto; }
+  @property --angle { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    /* page-load sequence */
+    .hero h1 .line { display: block; overflow: hidden; }
+    .hero h1 .line > span { display: block; animation: rise 1s cubic-bezier(.2,.75,.15,1) both; }
+    .hero h1 .line:nth-child(2) > span { animation-delay: .12s; }
+    .role { animation: fadeUp .8s .35s cubic-bezier(.2,.75,.15,1) both; }
+    .intro { animation: fadeUp .8s .65s cubic-bezier(.2,.75,.15,1) both; }
+    .links { animation: fadeUp .8s .8s cubic-bezier(.2,.75,.15,1) both; }
+    .portrait-wrap { animation: portraitIn 1.2s .2s cubic-bezier(.2,.75,.15,1) both; }
+    .portrait-wrap::before { animation: orbit 9s linear infinite; }
+    .native { animation: drift 2.2s .1s ease-out both; }
+
+    /* the waveform speaks, then keeps listening */
+    .wave rect { animation: speak 1.4s cubic-bezier(.2,.7,.2,1) both, listen 2.6s ease-in-out infinite;
+      animation-delay: calc(.45s + var(--i) * 18ms), calc(1.9s + var(--i) * 45ms); }
+
+    /* sections reveal as they scroll into view (only when JS is running) */
+    .js .reveal { opacity: 0; transform: translateY(28px); transition: opacity .9s cubic-bezier(.2,.75,.15,1), transform .9s cubic-bezier(.2,.75,.15,1); transition-delay: var(--d, 0s); }
+    .js .reveal.in { opacity: 1; transform: none; }
+
+    @keyframes rise { from { transform: translateY(105%); } to { transform: none; } }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+    @keyframes portraitIn { from { opacity: 0; transform: scale(.92); } to { opacity: 1; transform: none; } }
+    @keyframes drift { from { opacity: 0; transform: translateX(40px); } to { opacity: 1; transform: none; } }
+    @keyframes orbit { to { --angle: 360deg; } }
+    @keyframes speak { from { transform: scaleY(.06); opacity: .3; } to { transform: scaleY(1); opacity: 1; } }
+    @keyframes listen { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(.72); } }
+  }
+
+  @media (max-width: 860px) {
+    .hero { padding: 48px 0 40px; }
+    .hero-grid { grid-template-columns: 1fr; gap: 32px; }
+    .portrait-wrap { order: -1; justify-self: start; width: 168px; }
+    .portrait-wrap::before { inset: -10px; }
+    .portrait { box-shadow: 0 0 0 1px var(--line), 0 0 0 8px var(--ink), 0 0 0 9px #4a3a2c; }
+    .project::before { left: -14px; }
+    .native { font-size: 92px; top: 30px; right: -6%; }
+    .about, .project { grid-template-columns: 1fr; gap: 10px; }
+    .about { gap: 0; }
+    .profiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    section { padding: 52px 0; }
+    .paper { padding: 22px 20px; }
+    .contact .big { font-size: 26px; }
+  }
+  html, body { overflow-x: clip; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="native" aria-hidden="true" lang="sd">عمير احمد</div>
+    <div class="hero-grid">
+      <div class="hero-text">
+        <h1><span class="line"><span>Umair</span></span><span class="line"><span>Ahmed</span></span></h1>
+        <p class="role">Full-Stack AI Engineer</p>
+        <svg class="wave" id="wave" viewBox="0 0 520 56" preserveAspectRatio="none" aria-hidden="true"></svg>
+        <p class="intro">I build AI products end to end, from the model behind them to the page people click. Based in Islamabad, Pakistan.</p>
+        <nav class="links" aria-label="Profiles">
+          <a class="mail" href="mailto:umair.ahmed.cs@gmail.com">Email me</a>
+          <a href="https://www.linkedin.com/in/umairahmedcs" rel="me">LinkedIn</a>
+          <a href="https://github.com/Umair-Ahmed786" rel="me">GitHub</a>
+          <a href="https://huggingface.co/heyIamUmair" rel="me">Hugging Face</a>
+          <a href="https://scholar.google.com/citations?user=FjTkHtQAAAAJ" rel="me">Google Scholar</a>
+        </nav>
+      </div>
+      <div class="portrait-wrap">
+        <div class="portrait">
+          <img src="umair.webp" width="1024" height="1024" alt="Portrait of Umair Ahmed, Full-Stack AI Engineer">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="about" id="about">
+    <h2>About</h2>
+    <div>
+      <p class="lede">I'm a Full-Stack AI Engineer at <a href="https://revonix.co/authors/umair">Revonix</a>. I work across React and Next.js frontends, Node.js backends and Python model services, and I care about AI features that hold up in production, not just in a demo.</p>
+      <p>On Adroom, a generative-AI ad platform, I designed the quality gate: every AI-generated video is scored against Google's ABCD rubric, weak results are regenerated, and if the scorer itself fails, the video still ships and the error is logged.</p>
+      <p>Before Revonix I was a Software Engineer at Sukkur IBA University, building web apps for 500+ users and government records systems for Sindh. I also build and look after Shopify and WordPress sites for UK agencies.</p>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <h2>Selected work</h2>
+
+    <article class="project">
+      <div>
+        <h3>Adroom</h3>
+        <a class="site" href="https://adroom.pixis.ai/">adroom.pixis.ai</a>
+      </div>
+      <div>
+        <p>A platform that creates image and video ads with AI. I build features across its React frontend, Node.js backend and Python AI services, including the automated quality gate for generated videos.</p>
+        <p class="stack">React, TypeScript, Node.js, FastAPI, Gemini and Vertex AI, RabbitMQ, Redis</p>
+      </div>
+    </article>
+
+    <article class="project">
+      <div>
+        <h3>eDaftar</h3>
+        <a class="site" href="https://uat.edaftar.pk/">uat.edaftar.pk</a>
+      </div>
+      <div>
+        <p>A records and correspondence system for Sindh government offices, with three levels of access, approval workflows and audit logs. It reads documents with OCR and drafts official letters with AI, <span class="num">cutting processing time by 70%</span> for 100+ staff.</p>
+        <p class="stack">Next.js, Node.js, PostgreSQL, OCR</p>
+      </div>
+    </article>
+
+    <article class="project">
+      <div>
+        <h3>Achari Zaiqa</h3>
+        <a class="site" href="https://acharizaiqa.com/">acharizaiqa.com</a>
+      </div>
+      <div>
+        <p>A live multi-vendor store with storefront, vendor and admin dashboards. AI writes the product listings, which <span class="num">cut manual data entry by 70%</span>, and background jobs handle orders and coupons.</p>
+        <p class="stack">Next.js, PostgreSQL, Prisma, Gemini API, Vercel</p>
+      </div>
+    </article>
+
+    <article class="project">
+      <div>
+        <h3>Board of Revenue portal</h3>
+        <a class="site" href="https://ebor.pk/">ebor.pk</a>
+      </div>
+      <div>
+        <p>A portal where citizens look up land titles and complete ownership transfers online, built on decades of paper records moved into a searchable database.</p>
+        <p class="stack">React, Node.js, PostgreSQL</p>
+      </div>
+    </article>
+
+    <article class="project">
+      <div>
+        <h3>Sindhi speech-to-text</h3>
+        <a class="site" href="https://huggingface.co/spaces/heyIamUmair/Sindhi-Speech-to-Text">Try the live demo</a>
+      </div>
+      <div>
+        <p>OpenAI's Whisper fine-tuned on a 50-hour Sindhi speech dataset, so a low-resource language gets usable speech recognition. Published at IEEE iCoMET 2026.</p>
+        <p class="stack">Python, Whisper, Hugging Face Transformers</p>
+      </div>
+    </article>
+
+    <article class="project">
+      <div>
+        <h3>PakLegalAid</h3>
+        <a class="site" href="https://github.com/Umair-Ahmed786/PakLegalAid_Source_Code">View the source code</a>
+      </div>
+      <div>
+        <p>An AI legal assistant for Pakistani law, and my final-year project. I collected two datasets, fine-tuned DistilBERT to tell legal questions from everything else (<span class="num">92%+ accuracy</span>), adapted LLaMA 3.2 with LoRA and QLoRA, and grounded every answer in Pakistani legal documents through a retrieval pipeline, served by FastAPI with a streaming chat interface.</p>
+        <p class="stack">LLaMA 3.2, LoRA/QLoRA, DistilBERT, LangChain, FAISS, FastAPI</p>
+      </div>
+    </article>
+  </section>
+
+  <section class="research" id="research">
+    <h2>Research</h2>
+    <div class="paper">
+      <p class="title"><a href="https://ieeexplore.ieee.org/document/11591966">Enhancing Whisper for Low-Resource Sindhi Language ASR</a></p>
+      <p class="authors">N. Arain, <strong>U. Ahmed</strong>, N. Mughal, G. M. Shaikh, A. Luqman</p>
+      <p>iCoMET 2026, published in IEEE Xplore</p>
+    </div>
+    <div class="paper quiet">
+      <p class="title">Enhancing Legal Assistance with LLMs: A PEFT and RAG Approach</p>
+      <p>Under revision at PLOS ONE. A legal assistant for Pakistani law built on LLaMA 3.2, PEFT fine-tuning and a LangChain + FAISS retrieval pipeline.</p>
+    </div>
+  </section>
+
+  <section class="elsewhere" id="profiles">
+    <h2>Find me elsewhere</h2>
+    <ul class="profiles">
+      <li><a href="https://www.linkedin.com/in/umairahmedcs" rel="me">LinkedIn<span>Career and posts</span></a></li>
+      <li><a href="https://github.com/Umair-Ahmed786" rel="me">GitHub<span>Code and projects</span></a></li>
+      <li><a href="https://huggingface.co/heyIamUmair" rel="me">Hugging Face<span>Models and demos</span></a></li>
+      <li><a href="https://scholar.google.com/citations?user=FjTkHtQAAAAJ" rel="me">Google Scholar<span>Publications</span></a></li>
+      <li><a href="https://orcid.org/0009-0009-3291-0686" rel="me">ORCID<span>0009-0009-3291-0686</span></a></li>
+      <li><a href="https://www.researchgate.net/scientific-contributions/Umair-Ahmed-2356976073" rel="me">ResearchGate<span>Research</span></a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/11591966">IEEE Xplore<span>Sindhi ASR paper</span></a></li>
+      <li><a href="https://revonix.co/authors/umair">Revonix<span>Team profile</span></a></li>
+    </ul>
+  </section>
+
+  <section class="contact" id="contact">
+    <p class="big"><a href="mailto:umair.ahmed.cs@gmail.com">umair.ahmed.cs@gmail.com</a></p>
+    <p>Open to remote Full-Stack AI and generative-AI engineering roles, and to freelance work with agencies.</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">Umair Ahmed, Full-Stack AI Engineer, Islamabad. Sukkur IBA University alumnus.</div>
+</footer>
+
+<script>
+  // Draw a speech-like waveform: a few "words" of rising and falling bars.
+  (function () {
+    var svg = document.getElementById('wave'); if (!svg) return;
+    var n = 64, w = 520 / n, out = '';
+    for (var i = 0; i < n; i++) {
+      var t = i / (n - 1);
+      var word = Math.abs(Math.sin(t * Math.PI * 4.3)) * 0.75 + 0.25;
+      var envelope = Math.sin(t * Math.PI) * 0.6 + 0.4;
+      var jitter = 0.55 + 0.45 * Math.abs(Math.sin(i * 12.9898) * 43758.5453 % 1);
+      var h = Math.max(3, 52 * word * envelope * jitter);
+      out += '<rect style="--i:' + i + '" x="' + (i * w + w * 0.2).toFixed(1) + '" y="' + ((56 - h) / 2).toFixed(1) +
+             '" width="' + (w * 0.6).toFixed(1) + '" height="' + h.toFixed(1) + '" rx="' + (w * 0.3).toFixed(1) + '"></rect>';
+    }
+    svg.innerHTML = out;
+  })();
+
+  // Reveal sections and work rows as they scroll into view.
+  (function () {
+    if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    document.documentElement.classList.add('js');
+    var targets = document.querySelectorAll('main h2, .about > div, .project, .paper, .profiles li, .contact .big, .contact p');
+    targets.forEach(function (el) {
+      el.classList.add('reveal');
+      if (el.matches('.profiles li')) el.style.setProperty('--d', (Array.prototype.indexOf.call(el.parentNode.children, el) * 0.06) + 's');
+    });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
+    targets.forEach(function (el) { io.observe(el); });
+  })();
+</script>
+</body>
+</html>
